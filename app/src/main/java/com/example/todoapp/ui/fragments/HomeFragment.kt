@@ -94,7 +94,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             setTitle("Are you sure want to Delete All Items?")
             setPositiveButton("Yes") { _, _ ->
                 homeViewModel.deleteAllTodo()
-                activity?.showToast("Successfully Removed")
+               // activity?.showToast("Successfully Removed")
             }
             setNegativeButton("No") { _, _ -> }
             create()
@@ -109,7 +109,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             setPositiveButton("Yes") { _, _ ->
               //  homeViewModel.deleteTodo()
                 todoAdapter.removeSelectedItem()
-                activity?.showToast("Item Removed Successfully.")
+             //   activity?.showToast("Item Removed Successfully.")
             }
             setNegativeButton("No") { _, _ -> }
             create()
