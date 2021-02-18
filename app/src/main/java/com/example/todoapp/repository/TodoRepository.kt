@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import com.example.todoapp.database.TodoDatabase
 import com.example.todoapp.model.Todo
 
-class   TodoRepository(val db : TodoDatabase) {
+class TodoRepository(val db : TodoDatabase) {
 
     suspend fun insertTodo(todo : Todo){
         db.getTodoDao().insertTodo(todo)
