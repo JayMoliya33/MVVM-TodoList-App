@@ -1,7 +1,7 @@
 # TodoList-App-MVVM
 
 - An Android app written in Kotlin to practice one of the architecture models in mobile world which is **MVVM (Model View ViewModel)**.
--The app lets the user Add, Update, Mark as an Important, Remove & Remove all todo items📄. 
+- The app lets the user Add, Update, Mark as an Important, Remove & Remove all todo items📄. 
 
 # Screenshot : 
 <p float="left">
