@@ -3,7 +3,7 @@
 - An Android app written in Kotlin to practice one of the architecture models in mobile world which is **MVVM (Model View ViewModel)**.
 - The app lets the user Add, Update, Mark as an Important, Remove & Remove all todo items📄. 
 
-# Screenshot : 
+# 📱Screenshot : 
 <p float="left">
 <img src="https://user-images.githubusercontent.com/52040275/108713424-360a5100-753e-11eb-8813-5f01178da0d3.jpg" height="400" />
 <img src="https://user-images.githubusercontent.com/52040275/108713627-7f5aa080-753e-11eb-9a96-09f2da15aba6.png" height="400" />
